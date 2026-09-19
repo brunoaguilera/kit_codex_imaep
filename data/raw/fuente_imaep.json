@@ -1,0 +1,15 @@
+{
+  "institucion": "Banco Central del Paraguay",
+  "indicador": "Indicador Mensual de Actividad Económica del Paraguay (IMAEP)",
+  "pagina_fuente": "https://www.bcp.gov.py/web/institucional/indicador-mensual-de-actividad-economica-del-paraguay-imaep-",
+  "url_descarga": "https://www.bcp.gov.py/documents/20117/2659103/Indicador%2BMensual%2Bde%2Bla%2BActividad%2BEcon%C3%B3mica%2Bdel%2BParaguay.xlsx/27688483-a192-9797-37f7-1f8b184bf430?t=1789069578102",
+  "fecha_descarga_local": "2026-09-18T19:38:23-03:00",
+  "metodo_descarga": "Chromium en sesion grafica sobre la pagina oficial; la descarga directa del script recibio HTTP 403 de Cloudflare",
+  "archivo": "imaep_bcp_original.xlsx",
+  "archivo_usuario_raiz": "Indicador Mensual de la Actividad Económica del Paraguay.xlsx",
+  "archivo_usuario_raiz_identico": true,
+  "bytes": 130756,
+  "sha256": "7c413354fb6bbaf56b2797e33e72e33f3de91059a5a358e9e0c5dc15085c4c94",
+  "validacion_formato_xlsx": "OK",
+  "nota_revision": "El libro marca las cifras analizadas como preliminares, sujetas a revision. Es una version consultada en esta fecha, no una reconstruccion de vintages historicos."
+}

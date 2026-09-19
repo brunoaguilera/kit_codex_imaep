@@ -1,0 +1,1015 @@
+{
+  "estado": "OK",
+  "fuente": {
+    "institucion": "Banco Central del Paraguay",
+    "pagina": "https://www.bcp.gov.py/web/institucional/indicador-mensual-de-actividad-economica-del-paraguay-imaep-",
+    "url_descarga": "https://www.bcp.gov.py/documents/20117/2659103/Indicador%2BMensual%2Bde%2Bla%2BActividad%2BEcon%C3%B3mica%2Bdel%2BParaguay.xlsx/27688483-a192-9797-37f7-1f8b184bf430?t=1789069578102",
+    "archivo": "data/raw/imaep_bcp_original.xlsx",
+    "bytes": 130756,
+    "sha256": "7c413354fb6bbaf56b2797e33e72e33f3de91059a5a358e9e0c5dc15085c4c94",
+    "hojas": [
+      "IMAEP",
+      "IMAEP-apertura por sectores"
+    ]
+  },
+  "seleccion": {
+    "serie": "IMAEP total - Serie Original - nivel",
+    "hoja": "IMAEP",
+    "encabezado": "IMAEP!C9",
+    "unidad_celda": "IMAEP!B8",
+    "unidad": "Índice (base 2014 = 100)",
+    "rango_primario": "IMAEP!B274:C393",
+    "rango_verificacion": "IMAEP-apertura por sectores!B35:B154 y O35:O154"
+  },
+  "periodo_objetivo": {
+    "inicio": "2016-01-01",
+    "fin": "2025-12-01"
+  },
+  "periodo_observado": {
+    "inicio": "2016-01-01",
+    "fin": "2025-12-01"
+  },
+  "controles": {
+    "observaciones_esperadas": 120,
+    "observaciones_validas": 120,
+    "fechas_duplicadas": [],
+    "meses_faltantes": [],
+    "valores_no_numericos": 0,
+    "valores_no_finitos": 0,
+    "orden_cronologico": true,
+    "continuidad_mensual": true,
+    "comparacion_hoja_sectorial": true,
+    "csv_releido": "data/processed/imaep_2016_2025.csv",
+    "csv_igual_al_excel": true,
+    "comparaciones_csv_excel": 120,
+    "desviacion_estandar_cuadrada_aprox_varianza": true,
+    "cifras_preliminares": 120
+  },
+  "correspondencia_csv_excel": [
+    {
+      "fecha": "2016-01-01",
+      "fila_csv": 2,
+      "fecha_excel": "IMAEP!B274",
+      "valor_excel": "IMAEP!C274",
+      "valor": 99.33826725316615,
+      "igual": true
+    },
+    {
+      "fecha": "2016-02-01",
+      "fila_csv": 3,
+      "fecha_excel": "IMAEP!B275",
+      "valor_excel": "IMAEP!C275",
+      "valor": 104.80854898676499,
+      "igual": true
+    },
+    {
+      "fecha": "2016-03-01",
+      "fila_csv": 4,
+      "fecha_excel": "IMAEP!B276",
+      "valor_excel": "IMAEP!C276",
+      "valor": 109.20861128995935,
+      "igual": true
+    },
+    {
+      "fecha": "2016-04-01",
+      "fila_csv": 5,
+      "fecha_excel": "IMAEP!B277",
+      "valor_excel": "IMAEP!C277",
+      "valor": 106.83613888791348,
+      "igual": true
+    },
+    {
+      "fecha": "2016-05-01",
+      "fila_csv": 6,
+      "fecha_excel": "IMAEP!B278",
+      "valor_excel": "IMAEP!C278",
+      "valor": 102.67708650187271,
+      "igual": true
+    },
+    {
+      "fecha": "2016-06-01",
+      "fila_csv": 7,
+      "fecha_excel": "IMAEP!B279",
+      "valor_excel": "IMAEP!C279",
+      "valor": 102.16690640368162,
+      "igual": true
+    },
+    {
+      "fecha": "2016-07-01",
+      "fila_csv": 8,
+      "fecha_excel": "IMAEP!B280",
+      "valor_excel": "IMAEP!C280",
+      "valor": 100.97617106397135,
+      "igual": true
+    },
+    {
+      "fecha": "2016-08-01",
+      "fila_csv": 9,
+      "fecha_excel": "IMAEP!B281",
+      "valor_excel": "IMAEP!C281",
+      "valor": 100.66908044775451,
+      "igual": true
+    },
+    {
+      "fecha": "2016-09-01",
+      "fila_csv": 10,
+      "fecha_excel": "IMAEP!B282",
+      "valor_excel": "IMAEP!C282",
+      "valor": 105.28072089853927,
+      "igual": true
+    },
+    {
+      "fecha": "2016-10-01",
+      "fila_csv": 11,
+      "fecha_excel": "IMAEP!B283",
+      "valor_excel": "IMAEP!C283",
+      "valor": 107.75873094252819,
+      "igual": true
+    },
+    {
+      "fecha": "2016-11-01",
+      "fila_csv": 12,
+      "fecha_excel": "IMAEP!B284",
+      "valor_excel": "IMAEP!C284",
+      "valor": 108.41435116336936,
+      "igual": true
+    },
+    {
+      "fecha": "2016-12-01",
+      "fila_csv": 13,
+      "fecha_excel": "IMAEP!B285",
+      "valor_excel": "IMAEP!C285",
+      "valor": 122.38528034457399,
+      "igual": true
+    },
+    {
+      "fecha": "2017-01-01",
+      "fila_csv": 14,
+      "fecha_excel": "IMAEP!B286",
+      "valor_excel": "IMAEP!C286",
+      "valor": 106.93009052109855,
+      "igual": true
+    },
+    {
+      "fecha": "2017-02-01",
+      "fila_csv": 15,
+      "fecha_excel": "IMAEP!B287",
+      "valor_excel": "IMAEP!C287",
+      "valor": 109.5414121408088,
+      "igual": true
+    },
+    {
+      "fecha": "2017-03-01",
+      "fila_csv": 16,
+      "fecha_excel": "IMAEP!B288",
+      "valor_excel": "IMAEP!C288",
+      "valor": 119.9392353160826,
+      "igual": true
+    },
+    {
+      "fecha": "2017-04-01",
+      "fila_csv": 17,
+      "fecha_excel": "IMAEP!B289",
+      "valor_excel": "IMAEP!C289",
+      "valor": 105.78382043380438,
+      "igual": true
+    },
+    {
+      "fecha": "2017-05-01",
+      "fila_csv": 18,
+      "fecha_excel": "IMAEP!B290",
+      "valor_excel": "IMAEP!C290",
+      "valor": 108.5416283098626,
+      "igual": true
+    },
+    {
+      "fecha": "2017-06-01",
+      "fila_csv": 19,
+      "fecha_excel": "IMAEP!B291",
+      "valor_excel": "IMAEP!C291",
+      "valor": 105.01208857118152,
+      "igual": true
+    },
+    {
+      "fecha": "2017-07-01",
+      "fila_csv": 20,
+      "fecha_excel": "IMAEP!B292",
+      "valor_excel": "IMAEP!C292",
+      "valor": 105.27417957499392,
+      "igual": true
+    },
+    {
+      "fecha": "2017-08-01",
+      "fila_csv": 21,
+      "fecha_excel": "IMAEP!B293",
+      "valor_excel": "IMAEP!C293",
+      "valor": 107.16766159906881,
+      "igual": true
+    },
+    {
+      "fecha": "2017-09-01",
+      "fila_csv": 22,
+      "fecha_excel": "IMAEP!B294",
+      "valor_excel": "IMAEP!C294",
+      "valor": 108.66538724916728,
+      "igual": true
+    },
+    {
+      "fecha": "2017-10-01",
+      "fila_csv": 23,
+      "fecha_excel": "IMAEP!B295",
+      "valor_excel": "IMAEP!C295",
+      "valor": 114.77704604933506,
+      "igual": true
+    },
+    {
+      "fecha": "2017-11-01",
+      "fila_csv": 24,
+      "fecha_excel": "IMAEP!B296",
+      "valor_excel": "IMAEP!C296",
+      "valor": 115.84921299928256,
+      "igual": true
+    },
+    {
+      "fecha": "2017-12-01",
+      "fila_csv": 25,
+      "fecha_excel": "IMAEP!B297",
+      "valor_excel": "IMAEP!C297",
+      "valor": 126.17382003525992,
+      "igual": true
+    },
+    {
+      "fecha": "2018-01-01",
+      "fila_csv": 26,
+      "fecha_excel": "IMAEP!B298",
+      "valor_excel": "IMAEP!C298",
+      "valor": 114.13969509447043,
+      "igual": true
+    },
+    {
+      "fecha": "2018-02-01",
+      "fila_csv": 27,
+      "fecha_excel": "IMAEP!B299",
+      "valor_excel": "IMAEP!C299",
+      "valor": 117.06300413651076,
+      "igual": true
+    },
+    {
+      "fecha": "2018-03-01",
+      "fila_csv": 28,
+      "fecha_excel": "IMAEP!B300",
+      "valor_excel": "IMAEP!C300",
+      "valor": 123.78131853079216,
+      "igual": true
+    },
+    {
+      "fecha": "2018-04-01",
+      "fila_csv": 29,
+      "fecha_excel": "IMAEP!B301",
+      "valor_excel": "IMAEP!C301",
+      "valor": 119.48835255054001,
+      "igual": true
+    },
+    {
+      "fecha": "2018-05-01",
+      "fila_csv": 30,
+      "fecha_excel": "IMAEP!B302",
+      "valor_excel": "IMAEP!C302",
+      "valor": 115.30905984015018,
+      "igual": true
+    },
+    {
+      "fecha": "2018-06-01",
+      "fila_csv": 31,
+      "fecha_excel": "IMAEP!B303",
+      "valor_excel": "IMAEP!C303",
+      "valor": 106.85615027677139,
+      "igual": true
+    },
+    {
+      "fecha": "2018-07-01",
+      "fila_csv": 32,
+      "fecha_excel": "IMAEP!B304",
+      "valor_excel": "IMAEP!C304",
+      "valor": 110.0620338604245,
+      "igual": true
+    },
+    {
+      "fecha": "2018-08-01",
+      "fila_csv": 33,
+      "fecha_excel": "IMAEP!B305",
+      "valor_excel": "IMAEP!C305",
+      "valor": 109.17800717197942,
+      "igual": true
+    },
+    {
+      "fecha": "2018-09-01",
+      "fila_csv": 34,
+      "fecha_excel": "IMAEP!B306",
+      "valor_excel": "IMAEP!C306",
+      "valor": 107.21406692161872,
+      "igual": true
+    },
+    {
+      "fecha": "2018-10-01",
+      "fila_csv": 35,
+      "fecha_excel": "IMAEP!B307",
+      "valor_excel": "IMAEP!C307",
+      "valor": 116.87535128874109,
+      "igual": true
+    },
+    {
+      "fecha": "2018-11-01",
+      "fila_csv": 36,
+      "fecha_excel": "IMAEP!B308",
+      "valor_excel": "IMAEP!C308",
+      "valor": 116.31087018058277,
+      "igual": true
+    },
+    {
+      "fecha": "2018-12-01",
+      "fila_csv": 37,
+      "fecha_excel": "IMAEP!B309",
+      "valor_excel": "IMAEP!C309",
+      "valor": 126.06222888369794,
+      "igual": true
+    },
+    {
+      "fecha": "2019-01-01",
+      "fila_csv": 38,
+      "fecha_excel": "IMAEP!B310",
+      "valor_excel": "IMAEP!C310",
+      "valor": 113.29309922383865,
+      "igual": true
+    },
+    {
+      "fecha": "2019-02-01",
+      "fila_csv": 39,
+      "fecha_excel": "IMAEP!B311",
+      "valor_excel": "IMAEP!C311",
+      "valor": 113.70692914852276,
+      "igual": true
+    },
+    {
+      "fecha": "2019-03-01",
+      "fila_csv": 40,
+      "fecha_excel": "IMAEP!B312",
+      "valor_excel": "IMAEP!C312",
+      "valor": 117.86036776248287,
+      "igual": true
+    },
+    {
+      "fecha": "2019-04-01",
+      "fila_csv": 41,
+      "fecha_excel": "IMAEP!B313",
+      "valor_excel": "IMAEP!C313",
+      "valor": 113.09928908962056,
+      "igual": true
+    },
+    {
+      "fecha": "2019-05-01",
+      "fila_csv": 42,
+      "fecha_excel": "IMAEP!B314",
+      "valor_excel": "IMAEP!C314",
+      "valor": 112.32657748458462,
+      "igual": true
+    },
+    {
+      "fecha": "2019-06-01",
+      "fila_csv": 43,
+      "fecha_excel": "IMAEP!B315",
+      "valor_excel": "IMAEP!C315",
+      "valor": 105.24225327872938,
+      "igual": true
+    },
+    {
+      "fecha": "2019-07-01",
+      "fila_csv": 44,
+      "fecha_excel": "IMAEP!B316",
+      "valor_excel": "IMAEP!C316",
+      "valor": 111.1201389611149,
+      "igual": true
+    },
+    {
+      "fecha": "2019-08-01",
+      "fila_csv": 45,
+      "fecha_excel": "IMAEP!B317",
+      "valor_excel": "IMAEP!C317",
+      "valor": 110.68339351393001,
+      "igual": true
+    },
+    {
+      "fecha": "2019-09-01",
+      "fila_csv": 46,
+      "fecha_excel": "IMAEP!B318",
+      "valor_excel": "IMAEP!C318",
+      "valor": 114.6127877999437,
+      "igual": true
+    },
+    {
+      "fecha": "2019-10-01",
+      "fila_csv": 47,
+      "fecha_excel": "IMAEP!B319",
+      "valor_excel": "IMAEP!C319",
+      "valor": 123.13483589286808,
+      "igual": true
+    },
+    {
+      "fecha": "2019-11-01",
+      "fila_csv": 48,
+      "fecha_excel": "IMAEP!B320",
+      "valor_excel": "IMAEP!C320",
+      "valor": 118.92020078073867,
+      "igual": true
+    },
+    {
+      "fecha": "2019-12-01",
+      "fila_csv": 49,
+      "fecha_excel": "IMAEP!B321",
+      "valor_excel": "IMAEP!C321",
+      "valor": 131.49808562188508,
+      "igual": true
+    },
+    {
+      "fecha": "2020-01-01",
+      "fila_csv": 50,
+      "fecha_excel": "IMAEP!B322",
+      "valor_excel": "IMAEP!C322",
+      "valor": 118.98530018289271,
+      "igual": true
+    },
+    {
+      "fecha": "2020-02-01",
+      "fila_csv": 51,
+      "fecha_excel": "IMAEP!B323",
+      "valor_excel": "IMAEP!C323",
+      "valor": 122.56492593591724,
+      "igual": true
+    },
+    {
+      "fecha": "2020-03-01",
+      "fila_csv": 52,
+      "fecha_excel": "IMAEP!B324",
+      "valor_excel": "IMAEP!C324",
+      "valor": 119.01685179559705,
+      "igual": true
+    },
+    {
+      "fecha": "2020-04-01",
+      "fila_csv": 53,
+      "fecha_excel": "IMAEP!B325",
+      "valor_excel": "IMAEP!C325",
+      "valor": 97.78197979678205,
+      "igual": true
+    },
+    {
+      "fecha": "2020-05-01",
+      "fila_csv": 54,
+      "fecha_excel": "IMAEP!B326",
+      "valor_excel": "IMAEP!C326",
+      "valor": 104.97722022449719,
+      "igual": true
+    },
+    {
+      "fecha": "2020-06-01",
+      "fila_csv": 55,
+      "fecha_excel": "IMAEP!B327",
+      "valor_excel": "IMAEP!C327",
+      "valor": 107.68991821391847,
+      "igual": true
+    },
+    {
+      "fecha": "2020-07-01",
+      "fila_csv": 56,
+      "fecha_excel": "IMAEP!B328",
+      "valor_excel": "IMAEP!C328",
+      "valor": 111.68035028266853,
+      "igual": true
+    },
+    {
+      "fecha": "2020-08-01",
+      "fila_csv": 57,
+      "fecha_excel": "IMAEP!B329",
+      "valor_excel": "IMAEP!C329",
+      "valor": 108.45156547418298,
+      "igual": true
+    },
+    {
+      "fecha": "2020-09-01",
+      "fila_csv": 58,
+      "fecha_excel": "IMAEP!B330",
+      "valor_excel": "IMAEP!C330",
+      "valor": 112.66331042772445,
+      "igual": true
+    },
+    {
+      "fecha": "2020-10-01",
+      "fila_csv": 59,
+      "fecha_excel": "IMAEP!B331",
+      "valor_excel": "IMAEP!C331",
+      "valor": 123.21285604030263,
+      "igual": true
+    },
+    {
+      "fecha": "2020-11-01",
+      "fila_csv": 60,
+      "fecha_excel": "IMAEP!B332",
+      "valor_excel": "IMAEP!C332",
+      "valor": 120.13599937199852,
+      "igual": true
+    },
+    {
+      "fecha": "2020-12-01",
+      "fila_csv": 61,
+      "fecha_excel": "IMAEP!B333",
+      "valor_excel": "IMAEP!C333",
+      "valor": 133.9598988596978,
+      "igual": true
+    },
+    {
+      "fecha": "2021-01-01",
+      "fila_csv": 62,
+      "fecha_excel": "IMAEP!B334",
+      "valor_excel": "IMAEP!C334",
+      "valor": 112.18918008785354,
+      "igual": true
+    },
+    {
+      "fecha": "2021-02-01",
+      "fila_csv": 63,
+      "fecha_excel": "IMAEP!B335",
+      "valor_excel": "IMAEP!C335",
+      "valor": 122.06378693651513,
+      "igual": true
+    },
+    {
+      "fecha": "2021-03-01",
+      "fila_csv": 64,
+      "fecha_excel": "IMAEP!B336",
+      "valor_excel": "IMAEP!C336",
+      "valor": 129.31035258895895,
+      "igual": true
+    },
+    {
+      "fecha": "2021-04-01",
+      "fila_csv": 65,
+      "fecha_excel": "IMAEP!B337",
+      "valor_excel": "IMAEP!C337",
+      "valor": 118.5845398964249,
+      "igual": true
+    },
+    {
+      "fecha": "2021-05-01",
+      "fila_csv": 66,
+      "fecha_excel": "IMAEP!B338",
+      "valor_excel": "IMAEP!C338",
+      "valor": 118.41959287329904,
+      "igual": true
+    },
+    {
+      "fecha": "2021-06-01",
+      "fila_csv": 67,
+      "fecha_excel": "IMAEP!B339",
+      "valor_excel": "IMAEP!C339",
+      "valor": 115.39593111772305,
+      "igual": true
+    },
+    {
+      "fecha": "2021-07-01",
+      "fila_csv": 68,
+      "fecha_excel": "IMAEP!B340",
+      "valor_excel": "IMAEP!C340",
+      "valor": 115.3233046743849,
+      "igual": true
+    },
+    {
+      "fecha": "2021-08-01",
+      "fila_csv": 69,
+      "fecha_excel": "IMAEP!B341",
+      "valor_excel": "IMAEP!C341",
+      "valor": 112.58214589781157,
+      "igual": true
+    },
+    {
+      "fecha": "2021-09-01",
+      "fila_csv": 70,
+      "fecha_excel": "IMAEP!B342",
+      "valor_excel": "IMAEP!C342",
+      "valor": 115.59035501032912,
+      "igual": true
+    },
+    {
+      "fecha": "2021-10-01",
+      "fila_csv": 71,
+      "fecha_excel": "IMAEP!B343",
+      "valor_excel": "IMAEP!C343",
+      "valor": 121.0916330017977,
+      "igual": true
+    },
+    {
+      "fecha": "2021-11-01",
+      "fila_csv": 72,
+      "fecha_excel": "IMAEP!B344",
+      "valor_excel": "IMAEP!C344",
+      "valor": 122.4019804781519,
+      "igual": true
+    },
+    {
+      "fecha": "2021-12-01",
+      "fila_csv": 73,
+      "fecha_excel": "IMAEP!B345",
+      "valor_excel": "IMAEP!C345",
+      "valor": 140.3823887998605,
+      "igual": true
+    },
+    {
+      "fecha": "2022-01-01",
+      "fila_csv": 74,
+      "fecha_excel": "IMAEP!B346",
+      "valor_excel": "IMAEP!C346",
+      "valor": 115.64432808408941,
+      "igual": true
+    },
+    {
+      "fecha": "2022-02-01",
+      "fila_csv": 75,
+      "fecha_excel": "IMAEP!B347",
+      "valor_excel": "IMAEP!C347",
+      "valor": 116.77846778552158,
+      "igual": true
+    },
+    {
+      "fecha": "2022-03-01",
+      "fila_csv": 76,
+      "fecha_excel": "IMAEP!B348",
+      "valor_excel": "IMAEP!C348",
+      "valor": 124.92914498698036,
+      "igual": true
+    },
+    {
+      "fecha": "2022-04-01",
+      "fila_csv": 77,
+      "fecha_excel": "IMAEP!B349",
+      "valor_excel": "IMAEP!C349",
+      "valor": 111.77641477124862,
+      "igual": true
+    },
+    {
+      "fecha": "2022-05-01",
+      "fila_csv": 78,
+      "fecha_excel": "IMAEP!B350",
+      "valor_excel": "IMAEP!C350",
+      "valor": 113.72465967122461,
+      "igual": true
+    },
+    {
+      "fecha": "2022-06-01",
+      "fila_csv": 79,
+      "fecha_excel": "IMAEP!B351",
+      "valor_excel": "IMAEP!C351",
+      "valor": 112.28571265662713,
+      "igual": true
+    },
+    {
+      "fecha": "2022-07-01",
+      "fila_csv": 80,
+      "fecha_excel": "IMAEP!B352",
+      "valor_excel": "IMAEP!C352",
+      "valor": 113.40469574314403,
+      "igual": true
+    },
+    {
+      "fecha": "2022-08-01",
+      "fila_csv": 81,
+      "fecha_excel": "IMAEP!B353",
+      "valor_excel": "IMAEP!C353",
+      "valor": 118.77162953023218,
+      "igual": true
+    },
+    {
+      "fecha": "2022-09-01",
+      "fila_csv": 82,
+      "fecha_excel": "IMAEP!B354",
+      "valor_excel": "IMAEP!C354",
+      "valor": 119.81018554288491,
+      "igual": true
+    },
+    {
+      "fecha": "2022-10-01",
+      "fila_csv": 83,
+      "fecha_excel": "IMAEP!B355",
+      "valor_excel": "IMAEP!C355",
+      "valor": 122.23053011684722,
+      "igual": true
+    },
+    {
+      "fecha": "2022-11-01",
+      "fila_csv": 84,
+      "fecha_excel": "IMAEP!B356",
+      "valor_excel": "IMAEP!C356",
+      "valor": 123.91530002417865,
+      "igual": true
+    },
+    {
+      "fecha": "2022-12-01",
+      "fila_csv": 85,
+      "fecha_excel": "IMAEP!B357",
+      "valor_excel": "IMAEP!C357",
+      "valor": 139.85880285447237,
+      "igual": true
+    },
+    {
+      "fecha": "2023-01-01",
+      "fila_csv": 86,
+      "fecha_excel": "IMAEP!B358",
+      "valor_excel": "IMAEP!C358",
+      "valor": 119.69785337355275,
+      "igual": true
+    },
+    {
+      "fecha": "2023-02-01",
+      "fila_csv": 87,
+      "fecha_excel": "IMAEP!B359",
+      "valor_excel": "IMAEP!C359",
+      "valor": 123.28859683212274,
+      "igual": true
+    },
+    {
+      "fecha": "2023-03-01",
+      "fila_csv": 88,
+      "fecha_excel": "IMAEP!B360",
+      "valor_excel": "IMAEP!C360",
+      "valor": 135.87749538616376,
+      "igual": true
+    },
+    {
+      "fecha": "2023-04-01",
+      "fila_csv": 89,
+      "fecha_excel": "IMAEP!B361",
+      "valor_excel": "IMAEP!C361",
+      "valor": 120.00893441513934,
+      "igual": true
+    },
+    {
+      "fecha": "2023-05-01",
+      "fila_csv": 90,
+      "fecha_excel": "IMAEP!B362",
+      "valor_excel": "IMAEP!C362",
+      "valor": 122.01042009383649,
+      "igual": true
+    },
+    {
+      "fecha": "2023-06-01",
+      "fila_csv": 91,
+      "fecha_excel": "IMAEP!B363",
+      "valor_excel": "IMAEP!C363",
+      "valor": 117.84684497460651,
+      "igual": true
+    },
+    {
+      "fecha": "2023-07-01",
+      "fila_csv": 92,
+      "fecha_excel": "IMAEP!B364",
+      "valor_excel": "IMAEP!C364",
+      "valor": 121.49798781186644,
+      "igual": true
+    },
+    {
+      "fecha": "2023-08-01",
+      "fila_csv": 93,
+      "fecha_excel": "IMAEP!B365",
+      "valor_excel": "IMAEP!C365",
+      "valor": 123.70329675608072,
+      "igual": true
+    },
+    {
+      "fecha": "2023-09-01",
+      "fila_csv": 94,
+      "fecha_excel": "IMAEP!B366",
+      "valor_excel": "IMAEP!C366",
+      "valor": 120.96133852112172,
+      "igual": true
+    },
+    {
+      "fecha": "2023-10-01",
+      "fila_csv": 95,
+      "fecha_excel": "IMAEP!B367",
+      "valor_excel": "IMAEP!C367",
+      "valor": 131.64209248067928,
+      "igual": true
+    },
+    {
+      "fecha": "2023-11-01",
+      "fila_csv": 96,
+      "fecha_excel": "IMAEP!B368",
+      "valor_excel": "IMAEP!C368",
+      "valor": 126.83390485041254,
+      "igual": true
+    },
+    {
+      "fecha": "2023-12-01",
+      "fila_csv": 97,
+      "fecha_excel": "IMAEP!B369",
+      "valor_excel": "IMAEP!C369",
+      "valor": 147.16259828806147,
+      "igual": true
+    },
+    {
+      "fecha": "2024-01-01",
+      "fila_csv": 98,
+      "fecha_excel": "IMAEP!B370",
+      "valor_excel": "IMAEP!C370",
+      "valor": 127.2625532525719,
+      "igual": true
+    },
+    {
+      "fecha": "2024-02-01",
+      "fila_csv": 99,
+      "fecha_excel": "IMAEP!B371",
+      "valor_excel": "IMAEP!C371",
+      "valor": 131.8453131395256,
+      "igual": true
+    },
+    {
+      "fecha": "2024-03-01",
+      "fila_csv": 100,
+      "fecha_excel": "IMAEP!B372",
+      "valor_excel": "IMAEP!C372",
+      "valor": 136.71065743032582,
+      "igual": true
+    },
+    {
+      "fecha": "2024-04-01",
+      "fila_csv": 101,
+      "fecha_excel": "IMAEP!B373",
+      "valor_excel": "IMAEP!C373",
+      "valor": 130.9351454198566,
+      "igual": true
+    },
+    {
+      "fecha": "2024-05-01",
+      "fila_csv": 102,
+      "fecha_excel": "IMAEP!B374",
+      "valor_excel": "IMAEP!C374",
+      "valor": 126.4342965552712,
+      "igual": true
+    },
+    {
+      "fecha": "2024-06-01",
+      "fila_csv": 103,
+      "fecha_excel": "IMAEP!B375",
+      "valor_excel": "IMAEP!C375",
+      "valor": 122.84993781466908,
+      "igual": true
+    },
+    {
+      "fecha": "2024-07-01",
+      "fila_csv": 104,
+      "fecha_excel": "IMAEP!B376",
+      "valor_excel": "IMAEP!C376",
+      "valor": 128.16199355658796,
+      "igual": true
+    },
+    {
+      "fecha": "2024-08-01",
+      "fila_csv": 105,
+      "fecha_excel": "IMAEP!B377",
+      "valor_excel": "IMAEP!C377",
+      "valor": 125.36595225896141,
+      "igual": true
+    },
+    {
+      "fecha": "2024-09-01",
+      "fila_csv": 106,
+      "fecha_excel": "IMAEP!B378",
+      "valor_excel": "IMAEP!C378",
+      "valor": 125.969628087511,
+      "igual": true
+    },
+    {
+      "fecha": "2024-10-01",
+      "fila_csv": 107,
+      "fecha_excel": "IMAEP!B379",
+      "valor_excel": "IMAEP!C379",
+      "valor": 137.17762648226966,
+      "igual": true
+    },
+    {
+      "fecha": "2024-11-01",
+      "fila_csv": 108,
+      "fecha_excel": "IMAEP!B380",
+      "valor_excel": "IMAEP!C380",
+      "valor": 134.72215373750677,
+      "igual": true
+    },
+    {
+      "fecha": "2024-12-01",
+      "fila_csv": 109,
+      "fecha_excel": "IMAEP!B381",
+      "valor_excel": "IMAEP!C381",
+      "valor": 146.55979833984247,
+      "igual": true
+    },
+    {
+      "fecha": "2025-01-01",
+      "fila_csv": 110,
+      "fecha_excel": "IMAEP!B382",
+      "valor_excel": "IMAEP!C382",
+      "valor": 138.04970300192875,
+      "igual": true
+    },
+    {
+      "fecha": "2025-02-01",
+      "fila_csv": 111,
+      "fecha_excel": "IMAEP!B383",
+      "valor_excel": "IMAEP!C383",
+      "valor": 140.48450975517719,
+      "igual": true
+    },
+    {
+      "fecha": "2025-03-01",
+      "fila_csv": 112,
+      "fecha_excel": "IMAEP!B384",
+      "valor_excel": "IMAEP!C384",
+      "valor": 144.9337101311095,
+      "igual": true
+    },
+    {
+      "fecha": "2025-04-01",
+      "fila_csv": 113,
+      "fecha_excel": "IMAEP!B385",
+      "valor_excel": "IMAEP!C385",
+      "valor": 137.18437207472712,
+      "igual": true
+    },
+    {
+      "fecha": "2025-05-01",
+      "fila_csv": 114,
+      "fecha_excel": "IMAEP!B386",
+      "valor_excel": "IMAEP!C386",
+      "valor": 136.6189947789725,
+      "igual": true
+    },
+    {
+      "fecha": "2025-06-01",
+      "fila_csv": 115,
+      "fecha_excel": "IMAEP!B387",
+      "valor_excel": "IMAEP!C387",
+      "valor": 129.41163456857782,
+      "igual": true
+    },
+    {
+      "fecha": "2025-07-01",
+      "fila_csv": 116,
+      "fecha_excel": "IMAEP!B388",
+      "valor_excel": "IMAEP!C388",
+      "valor": 136.3024359204586,
+      "igual": true
+    },
+    {
+      "fecha": "2025-08-01",
+      "fila_csv": 117,
+      "fecha_excel": "IMAEP!B389",
+      "valor_excel": "IMAEP!C389",
+      "valor": 132.84967034645194,
+      "igual": true
+    },
+    {
+      "fecha": "2025-09-01",
+      "fila_csv": 118,
+      "fecha_excel": "IMAEP!B390",
+      "valor_excel": "IMAEP!C390",
+      "valor": 137.06392232042433,
+      "igual": true
+    },
+    {
+      "fecha": "2025-10-01",
+      "fila_csv": 119,
+      "fecha_excel": "IMAEP!B391",
+      "valor_excel": "IMAEP!C391",
+      "valor": 149.311281587361,
+      "igual": true
+    },
+    {
+      "fecha": "2025-11-01",
+      "fila_csv": 120,
+      "fecha_excel": "IMAEP!B392",
+      "valor_excel": "IMAEP!C392",
+      "valor": 143.40092567931026,
+      "igual": true
+    },
+    {
+      "fecha": "2025-12-01",
+      "fila_csv": 121,
+      "fecha_excel": "IMAEP!B393",
+      "valor_excel": "IMAEP!C393",
+      "valor": 158.4803138574431,
+      "igual": true
+    }
+  ],
+  "versiones": {
+    "python": "3.10.12",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.9"
+  }
+}

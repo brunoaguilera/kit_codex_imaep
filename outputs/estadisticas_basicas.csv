@@ -1,0 +1,13 @@
+estadistica,valor,unidad,meses_asociados,metodo
+cantidad_valida,120,observaciones,,
+cantidad_faltante,0,meses,,
+media,119.985,índice,,
+mediana,118.846,índice,,
+minimo,97.782,índice,2020-04-01,
+maximo,158.480,índice,2025-12-01,
+rango,60.698,índice,,
+q1,111.540,índice,,"Cuantiles inclusivos con interpolación lineal; posición (n-1)*p (statistics.quantiles, method='inclusive')."
+q3,126.239,índice,,"Cuantiles inclusivos con interpolación lineal; posición (n-1)*p (statistics.quantiles, method='inclusive')."
+rango_intercuartilico,14.699,índice,,"Cuantiles inclusivos con interpolación lineal; posición (n-1)*p (statistics.quantiles, method='inclusive')."
+varianza_muestral,144.822,índice^2,,Denominador n-1
+desviacion_estandar_muestral,12.034,índice,,Denominador n-1
