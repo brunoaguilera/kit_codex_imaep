@@ -15,13 +15,14 @@ El archivo de la raíz `Indicador Mensual de la Actividad Económica del Paragua
 
 ## Instalación y ejecución
 
-Requiere Python 3.10 o posterior. Desde la raíz:
+Requiere Python 3.10 o posterior. Para regenerar DOCX y PDF también se necesitan `pandoc` y `xelatex`. Desde la raíz:
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python analizar_imaep.py
 .venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python generar_documentos.py
 ```
 
 El análisis no descarga ni modifica el Excel. Para usar otra copia explícita:
@@ -49,5 +50,9 @@ Página oficial: https://www.bcp.gov.py/web/institucional/indicador-mensual-de-a
 - `outputs/informe.md`: informe breve en español.
 - `analizar_imaep.py`: generación reproducible de todos los resultados.
 - `tests/test_analizar_imaep.py`: cobertura, continuidad, duplicados, equivalencia y consistencia estadística.
+- `docs/trabajo_practico_imaep.docx`: trabajo práctico editable con datos e imágenes.
+- `docs/trabajo_practico_imaep.pdf`: versión PDF del mismo trabajo práctico.
+- `docs/imaep_colab.ipynb`: notebook para Google Colab con datos, controles, estadísticas e imágenes.
+- `generar_documentos.py`: generación reproducible de los documentos mediante Pandoc y XeLaTeX.
 
 Los resultados se regeneran sobrescribiendo únicamente los archivos derivados. El Excel original no se altera. Ante una inconsistencia de fechas, tipos, cobertura o equivalencia, el script detiene el análisis y deja el error en `outputs/calidad_datos.json`; no imputa ni elimina datos silenciosamente.
